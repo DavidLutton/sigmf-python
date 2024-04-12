@@ -26,6 +26,8 @@ dependencies = [
     sigmf_validate = "sigmf.validate:main"
     sigmf_gui = "sigmf.apps.gui:main [apps]"
     sigmf_convert_wav = "sigmf.apps.convert_wav:main [apps]"
+    sigmf_convert_wv = "sigmf.apps.convert_wv:main [apps]"
+
     [project.optional-dependencies]
     test = [
         "pylint",
